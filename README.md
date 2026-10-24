@@ -1,2 +1,10 @@
 # Real-World Dataset Initialization
-This repository contains two exploratory data analysis notebooks I built in Google Colab. In the first, I analyzed a synthetic financial dataset (finance_data.csv) containing 2,500 rows and 12 columns, covering quarterly revenue, profit margins, stock prices, and P/E ratios across multiple companies and sectors. I loaded the CSV, computed summary statistics, identified 121 missing values in the debt_to_equity column, and generated four visualizations: a revenue histogram, a profit margin box plot by sector, a profit vs. revenue scatter plot, and a correlation heatmap. I also applied Z-score-based outlier detection that flagged 57 anomalous P/E ratio entries. In the second notebook, I analyzed the Hitters baseball dataset (322 rows, 20 columns) downloaded from Kaggle, focusing on player salary distributions and performance metrics. I followed the same EDA pipeline, uncovering 59 missing salary entries, and produced a salary histogram, a salary box plot by league, and a full numeric correlation heatmap. All visualizations were saved as PNG files for use in reports and presentations.
+➔ Contains two exploratory data analysis (EDA) notebooks built in Google Colab to evaluate financial and sports datasets.
+
+➔ Analyzes finance_data.csv to compute summary statistics, handle missing values, and flag P/E ratio anomalies using Z-score outlier detection.
+
+➔ Generates comprehensive financial visualizations, including a revenue histogram, profit margin box plot, scatter plot, and correlation heatmap.
+
+➔ Evaluates the Kaggle Hitters.csv dataset to explore MLB player performance metrics and pinpoint missing salary entries.
+
+➔ Produces baseball-specific visualizations like salary histograms and league box plots, exporting all generated charts as PNG files for reporting.
